@@ -99,10 +99,12 @@ This is where the osTicket website files will be placed so the web server can ac
 <br />
 
 <p>
-<img src="./images/dependency-files.png" height="80%" width="80%" alt="Dependency files"/>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 32 39 PM" src="https://github.com/user-attachments/assets/e0a79c21-cc07-4688-bcd2-d316ce0a4b2b" />
+
 </p>
 <p>
 This screenshot shows the required installation files such as PHP, MySQL, and PHP Manager. 
 These programs are necessary for osTicket to function correctly on the server.
 </p>
 <br />
+
