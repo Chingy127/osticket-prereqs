@@ -169,3 +169,112 @@ PHP Manager is configured by selecting the php-cgi executable file.
 This connects PHP with the IIS web server so PHP applications like osTicket can run correctly.
 </p>
 <br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 46 00 PM" src="https://github.com/user-attachments/assets/b93d495d-cc11-49c6-a94e-57b59cd696ce" />
+</p>
+<p>
+The osTicket compressed file is extracted. 
+This step prepares the osTicket website files so they can be placed on the web server.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 49 02 PM" src="https://github.com/user-attachments/assets/948bf373-6ec8-40a4-8bd3-d1ae0e33e7a6" />
+</p>
+<p>
+The "upload" folder from the osTicket installation files is copied into the IIS web server directory located at C:\inetpub\wwwroot. 
+This allows IIS to host the osTicket website.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 52 03 PM" src="https://github.com/user-attachments/assets/97e03bac-3cda-4b82-baa8-0bf2bb0bf0cd" />
+</p>
+<p>
+Inside IIS Manager, the osTicket folder appears under the Default Web Site. 
+This confirms the website files were successfully added to the web server.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 58 29 PM" src="https://github.com/user-attachments/assets/bbed7501-9421-49ba-b84e-19541e9b2f70" />
+</p>
+<p>
+PHP extensions are enabled inside IIS. 
+These extensions provide additional functionality required for osTicket to run properly.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 2 00 58 PM" src="https://github.com/user-attachments/assets/4f2e041a-484f-465d-9622-ba431a85b4b1" />
+</p>
+<p>
+The osTicket configuration file named "ost-config.php" is located inside the include folder. 
+This file stores important configuration settings for the help desk system.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 2 03 36 PM" src="https://github.com/user-attachments/assets/3b3420bf-60bc-4113-9b31-f33a17a3f59e" />
+</p>
+<p>
+Permissions are updated for the configuration file so the web server can modify it during installation. 
+This allows osTicket to save database settings and complete the setup process.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 2 08 22 PM" src="https://github.com/user-attachments/assets/4abcd470-218c-4149-9113-2417bc52f864" />
+</p>
+<p>
+The osTicket installation page is opened in the browser. 
+Basic system information such as the help desk name, admin user, and email address are entered to complete the setup.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 2 10 39 PM" src="https://github.com/user-attachments/assets/141c440f-d7af-48d0-93c1-1b9dbe23e07d" />
+</p>
+<p>
+HeidiSQL is installed to help manage the MySQL database used by osTicket. 
+This tool makes it easier to view and manage the database tables.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 2 12 39 PM" src="https://github.com/user-attachments/assets/21a63213-b403-4aae-bbce-6876ffbe6d3b" />
+</p>
+<p>
+HeidiSQL successfully connects to the MySQL server running on the machine. 
+This confirms the database service is running and accessible.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 2 15 17 PM" src="https://github.com/user-attachments/assets/069d70ab-40be-476d-9aea-2e7f9276fa82" />
+</p>
+<p>
+The installation completes successfully. 
+This screen confirms that the osTicket help desk system has been installed and is ready to use.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 2 19 43 PM" src="https://github.com/user-attachments/assets/672ea62d-369a-41bf-821e-0e8197422f17" />
+</p>
+<p>
+The osTicket admin login page is opened. 
+Administrators use this page to sign in and manage support tickets within the help desk system.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-07 at 2 25 25 PM" src="https://github.com/user-attachments/assets/a0035c7b-779a-462a-9cbd-5fcfd585474f" />
+
+</p>
+<p>
+After logging in, the osTicket dashboard is displayed. 
+This dashboard allows administrators to view, manage, and respond to support tickets submitted by users.
+</p>
+<br />
