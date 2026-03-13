@@ -27,7 +27,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="./images/rdp-connect.png" height="80%" width="80%" alt="Remote Desktop Connection"/>
+<img width="1162" height="705" alt="Screenshot 2026-03-06 at 1 08 09 PM" src="https://github.com/user-attachments/assets/076976c6-231d-419e-a5b9-a85c2e6ae45b" />
+
 </p>
 <p>
 This screenshot shows connecting to the Azure virtual machine using Remote Desktop. 
