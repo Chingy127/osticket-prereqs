@@ -108,3 +108,64 @@ These programs are necessary for osTicket to function correctly on the server.
 </p>
 <br />
 
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 32 47 PM" src="https://github.com/user-attachments/assets/d0875faf-3726-4dff-bdb0-4ba9a508efb4" />
+</p>
+<p>
+This screenshot shows the contents of the PHP folder after extracting the PHP installation files. 
+These files allow the web server to run PHP applications, which osTicket requires to function.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 33 58 PM" src="https://github.com/user-attachments/assets/d410d76a-209d-486c-9fcc-08d831f91682" />
+</p>
+<p>
+The PHP compressed file is extracted to the C:\PHP directory. 
+This places the PHP files in a location where the web server can access them.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 35 29 PM" src="https://github.com/user-attachments/assets/7a5d21b4-f44c-4381-b4b2-ac3909616c6c" />
+</p>
+<p>
+Microsoft Visual C++ Redistributable is installed. 
+This software provides system components required for some of the osTicket dependencies to run properly.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 36 04 PM" src="https://github.com/user-attachments/assets/406bc37f-24f3-442e-b245-2e11308c2a55" />
+<p>
+The MySQL setup wizard is launched. 
+MySQL will be used as the database that stores ticket information for the help desk system.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 41 35 PM" src="https://github.com/user-attachments/assets/1bb9b2c0-99ad-4cb2-91aa-96489e2bbaf7" />
+</p>
+<p>
+The Windows search bar is used to locate Internet Information Services (IIS) Manager. 
+This tool is used to configure and manage the web server.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 42 22 PM" src="https://github.com/user-attachments/assets/e70043bf-6a2c-4d62-8a13-dbe655f97da7" />
+</p>
+<p>
+IIS Manager is opened to view and manage the web server settings. 
+From here, features such as PHP Manager and URL Rewrite can be configured.
+</p>
+<br />
+
+<p>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 43 31 PM" src="https://github.com/user-attachments/assets/32cd43f3-f707-4945-8cd7-39b52edf8476" />
+</p>
+<p>
+PHP Manager is configured by selecting the php-cgi executable file. 
+This connects PHP with the IIS web server so PHP applications like osTicket can run correctly.
+</p>
+<br />
