@@ -47,7 +47,8 @@ Logging in gives access to the cloud computer where osTicket will be installed.
 <br />
 
 <p>
-<img src="./images/installation-files.png" height="80%" width="80%" alt="osTicket installation files"/>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 15 50 PM" src="https://github.com/user-attachments/assets/6dc4f8d3-925c-4927-b23c-9e129df0b31d" />
+
 </p>
 <p>
 This screenshot shows the osTicket installation files that were downloaded and extracted. 
@@ -56,7 +57,8 @@ These files include the database software, PHP, and other components required to
 <br />
 
 <p>
-<img src="./images/iis-enable.png" height="80%" width="80%" alt="Enable IIS"/>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 20 10 PM" src="https://github.com/user-attachments/assets/d9970458-f1eb-4a4e-b172-d3b246a1b4ff" />
+
 </p>
 <p>
 Internet Information Services (IIS) is enabled in Windows Features. 
@@ -65,7 +67,8 @@ IIS is a web server that allows the computer to host and run web applications li
 <br />
 
 <p>
-<img src="./images/cgi-enable.png" height="80%" width="80%" alt="Enable CGI"/>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 21 01 PM" src="https://github.com/user-attachments/assets/15b170f8-b366-4334-a01a-34a3d6ec26e2" />
+
 </p>
 <p>
 The CGI feature is enabled inside IIS application development features. 
