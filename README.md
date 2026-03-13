@@ -37,7 +37,8 @@ The public IP address from the Azure VM is entered so the computer in the cloud 
 <br />
 
 <p>
-<img src="./images/windows-login.png" height="80%" width="80%" alt="Windows Login"/>
+<img width="1440" height="900" alt="Screenshot 2026-03-06 at 1 10 49 PM" src="https://github.com/user-attachments/assets/aad84666-2e80-4a4e-a0df-0d14f6ee0e80" />
+
 </p>
 <p>
 After connecting through Remote Desktop, the Windows virtual machine login screen appears. 
